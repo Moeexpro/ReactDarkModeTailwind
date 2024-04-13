@@ -6,7 +6,7 @@ import { Switch } from "@mui/material";
 const DarkModeHandler = ({customClass} : {
     customClass? : string;
 }) => {
- const baseClass = "flex w-full p-5 flex-row justify-end gap-2 items-center";
+ const baseClass = "flex flex-row gap-2 w-fit items-center";
  const [darkTheme,setDarkTheme] = useState(false);
  
  useEffect(()=>{

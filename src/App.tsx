@@ -4,7 +4,9 @@ import DarkModeHandler from './DarkModeHandler';
 function App() {
   return (
     <div className="flex flex-col w-screen h-screen dark:bg-[#282c34]">
+      <div className='flex flex-row w-full justify-end p-5'>
       <DarkModeHandler/>
+      </div>
       <div className='w-full h-full flex flex-col justify-center items-center gap-2'>
         <img src={logo} className="w-[33rem] h-[33rem] object-cover" alt="logo" />
         <div className='flex flex-col gap-1'>
