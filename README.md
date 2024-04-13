@@ -1,3 +1,15 @@
+Project Overview:
+
+This is a implementation of dark mode in React with tailwind css. This will work with Tailwind css, There are some steps for setting up your tailwindconfig file before running npm start:
+
+1: Add darkMode: 'class' in module.exports object such as ![image](https://github.com/Moeexpro/ReactDarkModeTailwind/assets/45965772/22f8c08f-2021-4ea5-a06b-821d73468b5d)
+
+now using tailwind classes, with className you can use dark class to add custom styling for dark mode like: ![image](https://github.com/Moeexpro/ReactDarkModeTailwind/assets/45965772/556d8f1b-2e10-42b3-abef-f651601eb3f0)
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
